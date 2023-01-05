@@ -2,3 +2,5 @@ app_org/
 plugins/
 vendors/
 app/tmp/
+app/webroot/report
+

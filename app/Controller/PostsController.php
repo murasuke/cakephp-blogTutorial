@@ -5,6 +5,7 @@ class PostsController extends AppController
     public $components = ['Flash'];
     public $uses = ['Post'];
 
+
     public function index()
     {
         $this->set('posts', $this->Post->find('all'));

@@ -57,7 +57,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'tkykn',
 		'password' => 'MySQL8P@ss',
-		'database' => 'BlogTutorial',
+		'database' => 'cake2',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -68,7 +68,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'tkykn',
 		'password' => 'MySQL8P@ss',
-		'database' => 'BlogTutorial',
+		'database' => 'test_cake2book',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
