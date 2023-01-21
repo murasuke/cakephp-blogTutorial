@@ -5,4 +5,11 @@
 </IfModule>
 
 
-php_value auto_prepend_file /var/www/html/blogTutorial/app/Lib/coverage_inc.php
+## COVERAGE_TGT_DIR is coverage target directory. default:/app
+## COVERAGE_TMP_DIR is to save coverage data(needs write permission). defalut:/app/tmp/
+## COVERAGE_DST_DIR is to save coverage report(needs write permission). default:/app/webroot/reports
+# SetEnv COVERAGE_TGT_DIR '/var/www/html/blogTutorial/app/Controller'
+# SetEnv COVERAGE_TMP_DIR '/var/www/html/blogTutorial/app/tmp/cvg'
+# SetEnv COVERAGE_DST_DIR '/var/www/html/blogTutorial/app/webroot/rpt'
+
+php_value auto_prepend_file /var/www/html/blogTutorial/app/Lib/CoverageDumper.php
